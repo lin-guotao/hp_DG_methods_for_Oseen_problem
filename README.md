@@ -42,16 +42,16 @@ docker run --privileged -ti -v $(pwd):/home/dealii/shared -w /home/dealii/shared
 ### 3. Build the project
 Inside the container (or in your local project folder), run:
 ```bash
-mkdir build
+sudo mkdir build
 cd build
-cmake -DCMAKE_BUILD_TYPE=Release ..
-make -j$(nproc)
+sudo cmake -DCMAKE_BUILD_TYPE=Release ..
+sudo make -j$(nproc)
 ```
 ### 4. Run the numerical experiments
 After a successful build, the executable files for various numerical experiments will be located in the build/examples directory.
 For example, to run the rectangular domain test:
 ```bash
 cd examples
-./example1_rect
+sudo ./example1_rect
 ```
 Results: All output files are saved in build/examples/output.

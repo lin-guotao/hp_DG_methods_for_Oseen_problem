@@ -5,6 +5,11 @@
 
 ---
 
+## Basis
+This implementation is based on **[deal.II](https://www.dealii.org/)** and **[polydeal](https://github.com/fdrmrc/Polydeal)**.
+
+---
+
 ## Prerequisites
 
 ### Option A: Using Docker (Recommended)
@@ -16,11 +21,6 @@ If you prefer not to use Docker, you must manually install **polydeal**:
 * [polydeal Repository](https://github.com/fdrmrc/Polydeal)
 
 **Important:** Please ensure this repository's folder is placed in the **same parent directory** as the `polydeal` folder for the build system to locate dependencies.
-
----
-
-## Basis
-This implementation is based on **[deal.II](https://www.dealii.org/)** and **[polydeal](https://github.com/fdrmrc/Polydeal)**.
 
 ---
 
